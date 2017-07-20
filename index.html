@@ -25,14 +25,15 @@
 
 		<script type="text/javascript">
 			$('.preloader').preloader({
-				background: '#f44',
-				foreground: '#ccc',
-				complete: function() {
+				spinnerBackground		: '#fff',
+				spinnerForeground		: 'red',
+				spinnerBorderWidth		: 2,
+				mainBackground			: 'rgba(40, 80, 40, 0.65)',
+				radius					: 50,
+				complete				: function() {
 					console.log("Working!");
 				}
 			});
-
-			alert(1);
 		</script>
 	</body>
 </html>
